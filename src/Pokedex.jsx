@@ -171,7 +171,7 @@ function Pokedex() {
     return (
         <div className="pokedex-container">
             <header className="pokedex-header"> 
-                <h1>{username}'s {regionConfig.name} Pokdex</h1>
+                <h1>{username}'s {regionConfig.name} Pokédex</h1>
                 <button className="signout-btn" onClick={() => { supabase.auth.signOut(); navigate('/') }}>
                     Sign Out
                 </button>
